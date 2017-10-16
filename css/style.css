@@ -3,7 +3,7 @@
     padding: 0px;
 }
 
-.txt-up {
+.text {
     text-transform: uppercase;
 }
 
@@ -28,17 +28,11 @@ li {
     cursor: pointer;
 }
 
-
-/*----------------------CONTAINERS AND WRAPPER--------*/
-
 .container {
     max-width: 1170px;
     margin: 0px auto;
     font-family: "Montserrat", 'Arial', sans-serif;
 }
-
-
-/*-----------HEADER------------*/
 
 header {
     color: #343e5c;
@@ -54,7 +48,7 @@ header {
     align-items: center;
 }
 
-.top-menu {
+.nav-menu {
     width: 500px;
     max-width: 500px;
     justify-content: space-around;
@@ -66,28 +60,28 @@ header {
     padding-bottom: 25px;
 }
 
-.card {
+.cart {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.card__position {
+.cart__position {
     margin-right: 30px;
     display: flex;
     align-items: center;
 }
 
-.card__position_span {
+.cart__position_span {
     display: inline-block;
     margin: 0px 5px;
 }
 
-.card__span {
+.cart__span {
     font-size: 0.875rem;
 }
 
-.card__span_price {
+.cart__span_price {
     background-color: #e3e8f0;
     padding: 5px 8px;
     font-size: 0.6875rem;
@@ -145,9 +139,6 @@ button {
     padding-right: 10px;
     padding-left: 10px;
 }
-
-
-/*-----------SECTION PHONE-BLOCK------------*/
 
 .phone-block {
     background-color: #1c1e23;
