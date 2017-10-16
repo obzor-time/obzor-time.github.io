@@ -1,174 +1,38 @@
-.top {
-    text-transform: uppercase;
+body {
+    margin: 0;
+    padding:0;
+}
+
+.header__logo {
+    padding: 0 120px;
+    vertical-align: middle;
 }
 
 .menu {
-border-bottom: 1px solid #f0f0f0;
+    border-bottom: 1px solid #f0f0f0;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
 
-button {
-    border: 0px;
-    background-color: #fff;
-    outline: none;
-    cursor: pointer;
-}
-
-input {
-    border: 0px;
-    font-size: 0.9375rem;
-    margin-top: 30px;
-}
-
-ul {
-    display: flex;
-}
-
-li {
-    cursor: pointer;
-}
-
-.container {
-    max-width: 1170px;
-    margin: 0px auto;
-    font-family: "Montserrat", 'Arial', sans-serif;
-}
-
-header {
-    color: #343e5c;
-}
-
-.top-menu {
-    width: 500px;
-    max-width: 500px;
-    justify-content: space-around;
-    font-size: 0.9375rem;
-}
-
-.container__position {
-    padding-top: 30px;
-    padding-bottom: 25px;
-}
-
-.cart {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.cart__position {
-    margin-right: 30px;
-    display: flex;
-    align-items: center;
-}
-
-.cart__position_span {
+.header__top-menu {
+    list-style: none;
     display: inline-block;
-    margin: 0px 5px;
 }
 
-.cart__span {
-    font-size: 0.875rem;
-}
-
-.cart__span_price {
-    background-color: #e3e8f0;
-    padding: 5px 8px;
-    font-size: 0.6875rem;
+.top-menu__li {
+    margin-right: 24px;
+    padding: 12px 0;
+    color: black;
     display: inline-block;
-    border-radius: 50%;
+    vertical-align: middle;
 }
 
-button {
-    font-size: 0.6875rem;
-    border-radius: 20px;
-    border: 2px solid #e3e8f0;
-    padding: 10px 20px;
+.cart top {
+display: inline-block;
 }
 
-.header menu {
-    color: #b9bed1;
-    display: flex;
-    align-items: center;
-}
-
-.menu-header__li:hover {
-    color: #343e5c;
-}
-
-.header menu__list {
-    width: 100%;
-    max-width: 600px;
-    justify-content: space-between;
-    padding-top: 30px;
-}
-
-.header menu__block-right {
-    margin-left: auto;
-    width: 100%;
-    max-width: 300px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.header menu__span {
-    border-right: 1px solid #f0f2f7;
-}
-
-.header menu__span-position {
-    padding-top: 32px;
-    padding-right: 20px;
-}
-
-.search {
-    position: relative;
-    bottom: -15px;
-    padding-right: 10px;
-    padding-left: 10px;
-}
-
-.phone-section {
-    background-color: #1c1e23;
-    margin-top: 25px;
-    color: #fff;
-}
-
-.phone__big {
-    height: 100%;
-}
-
-.phone__block {
-    max-width: 900px;
-    display: flex;
-    justify-content: space-around;
-    margin: 0px auto;
-}
-
-.phone-block__h1 {
-    font-size: 2.625rem;
-    font-family: 'Montserrat';
-    font-weight: 900;
-}
-
-.phone-block__p {
-    font-size: 1rem;
-    font-family: 'Crimson Text', 'Arial';
-    line-height: 20px;
-}
-
-.phone-block__p_relative {
-    padding: 35px 0px 70px;
-}
-
-.phone-block__relative {
-    padding-top: 150px;
-}
-
-.button__buy {
-    color: #fff;
-    background-color: #2754eb;
-    border: 0px;
-    padding: 15px 60px;
+.cart__img {
+    margin-left: 120px;
+    vertical-align: middle;
+    margin-right: 8px;
 }
