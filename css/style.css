@@ -96,26 +96,26 @@ button {
     padding: 10px 20px;
 }
 
-.menu-header__position {}
+.header-menu__position {}
 
-.menu-header {
+.header-menu {
     color: #b9bed1;
     display: flex;
     align-items: center;
 }
 
-.menu-header__li:hover {
+.header-menu__li:hover {
     color: #343e5c;
 }
 
-.menu-header__list {
+.header-menu__list {
     width: 100%;
     max-width: 600px;
     justify-content: space-between;
     padding-top: 30px;
 }
 
-.menu-header__block-right {
+.header-menu__block-right {
     margin-left: auto;
     width: 100%;
     max-width: 300px;
@@ -124,11 +124,11 @@ button {
     align-items: center;
 }
 
-.menu-header__span {
+.header-menu__span {
     border-right: 1px solid #f0f2f7;
 }
 
-.menu-header__span-position {
+.header-menu__span-position {
     padding-top: 32px;
     padding-right: 20px;
 }
