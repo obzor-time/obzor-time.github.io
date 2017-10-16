@@ -3,6 +3,11 @@ body {
     padding:0;
 }
 
+.header__logo {
+    padding: 0 120px;
+    vertical-align: middle;
+}
+
 .top-menu__li {
     margin-right: 24px;
     padding: 12px 0;
