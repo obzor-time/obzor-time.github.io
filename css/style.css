@@ -3,6 +3,14 @@ body {
     padding:0;
 }
 
+.top-menu__li {
+    margin-right: 24px;
+    padding: 12px 0;
+    color: black;
+    display: inline-block;
+    vertical-align: middle;
+}
+
 .top {
     text-transform: uppercase;
 }
