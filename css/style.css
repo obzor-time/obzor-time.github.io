@@ -8,7 +8,14 @@ div {
     display: block;
 }
 
+.top-menu__item-list_black {
 
+	margin-right: 24px;
+    padding: 12px 0;
+    color: black;
+    display: inline-block;
+    vertical-align: middle;
+}
 
 .header__top-menu {
 	display:inline-block;
@@ -28,4 +35,9 @@ div {
 	border-bottom: 1px solid #f0f0f0;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+}
+
+.header__logo_left {
+	padding: 0 120px;
+	vertical-align: middle;
 }
