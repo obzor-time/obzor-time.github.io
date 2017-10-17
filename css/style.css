@@ -41,3 +41,26 @@ div {
 	padding: 0 120px;
 	vertical-align: middle;
 }
+
+.cart {
+  
+  display:inline-block;
+}
+
+.cart__icon-cart {
+	margin-left: 120px;
+	vertical-align: middle;
+    margin-right: 8px;
+}
+
+
+.cart__text-cart {
+background-color: #eee;
+    border-radius: 100%;
+    padding: 4px 8px;
+}
+
+.sign-in {
+	display:inline-block;
+}
+
