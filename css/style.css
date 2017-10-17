@@ -126,7 +126,7 @@ div {
     color: gray;
 }
 
-.support-search__field_right:placeholder-shown {
+.support-search__field_right {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: gray;
