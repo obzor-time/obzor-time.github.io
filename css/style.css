@@ -85,4 +85,6 @@ div {
 	padding-left: 0;
 	padding: 15px;
     color: gray;
+    display:inline-block;
+    list-style: none;
 }
