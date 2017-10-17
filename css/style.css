@@ -99,6 +99,11 @@ div {
     padding-left: 0;
 }
 
+.second-menu__list_right {
+	display:inline-block;
+    list-style: none;
+}
+
 .support-search_right {  
     float: right;
     margin-right: 20vw;
