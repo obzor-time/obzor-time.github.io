@@ -55,12 +55,34 @@ div {
 
 
 .cart__text-cart {
-background-color: #eee;
+    background-color: #eee;
     border-radius: 100%;
     padding: 4px 8px;
+    margin: 0px 10px 0px 10px;
 }
 
 .sign-in {
 	display:inline-block;
 }
 
+.sign-in__button_right {
+    color: black;
+    background-color: #fff;
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: solid 1px gray;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.second-menu__list_left {
+	padding: 0 120px;
+	font-size: 11px;
+}
+
+.second-menu__list_left_gray {
+	padding-left: 0;
+	padding: 15px;
+    color: gray;
+}
