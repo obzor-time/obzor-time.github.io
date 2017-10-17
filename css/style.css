@@ -82,6 +82,7 @@ div {
 	padding: 0 120px;
 	font-size: 11px;
 	text-decoration: none;
+	float: left;
 }
 
 .second-menu__list_left_gray {
@@ -94,6 +95,11 @@ div {
  
 }
 
+.second-menu {
+    list-style: none;
+    display: inline-block;
+}
+
 
 .second-menu__list_left_gray:nth-child(1) {
     padding-left: 0;
@@ -102,6 +108,7 @@ div {
 .second-menu__list_right {
 	display:inline-block;
     list-style: none;
+    font-size: 11px;
 }
 
 .support-search_right {  
@@ -111,4 +118,17 @@ div {
     margin-top: -4px;
     text-decoration: none;
     display:inline-block;
+}
+
+.second-menu__list_right_gray:nth-child(1) {
+    padding-left: 0;
+    padding: 15px;
+    color: gray;
+}
+
+.support-search__field_right:placeholder-shown {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: gray;
+    border: 0px;
 }
