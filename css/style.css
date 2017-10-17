@@ -104,4 +104,6 @@ div {
     margin-right: 20vw;
     vertical-align: middle;
     margin-top: -4px;
+    text-decoration: none;
+    display:inline-block;
 }
