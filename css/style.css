@@ -90,3 +90,8 @@ div {
     color: gray;
     text-decoration: none;
 }
+
+
+.second-menu__list_left_gray:nth-child(1) {
+    padding-left: 0;
+}
