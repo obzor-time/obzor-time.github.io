@@ -45,6 +45,7 @@ div {
 .cart {
   
   display:inline-block;
+  text-decoration: none;
 }
 
 .cart__icon-cart {
@@ -59,6 +60,7 @@ div {
     border-radius: 100%;
     padding: 4px 8px;
     margin: 0px 10px 0px 10px;
+    text-decoration: none;
 }
 
 .sign-in {
@@ -79,6 +81,7 @@ div {
 .second-menu__list_left {
 	padding: 0 120px;
 	font-size: 11px;
+	text-decoration: none;
 }
 
 .second-menu__list_left_gray {
@@ -88,7 +91,7 @@ div {
     display:inline-block;
     list-style: none;
     color: gray;
-    text-decoration: none;
+ 
 }
 
 
