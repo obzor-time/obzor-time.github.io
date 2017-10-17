@@ -98,3 +98,10 @@ div {
 .second-menu__list_left_gray:nth-child(1) {
     padding-left: 0;
 }
+
+.support-search_right {  
+    float: right;
+    margin-right: 20vw;
+    vertical-align: middle;
+    margin-top: -4px;
+}
