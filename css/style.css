@@ -7,3 +7,12 @@ body {
 div {
     display: block;
 }
+
+.header__top-menu {
+	display:inline-block;
+}
+
+.second-menu {
+	display:inline-block;
+}
+
