@@ -112,37 +112,3 @@ div {
     text-decoration: none;
     display:inline-block;
 }
-
-.iphone__product {
-	background-color: #1c1e23;
-	height: 100%;
-	display: block;
-    vertical-align: middle;
-    font-family: 'Montserrat', sans-serif;
-}
-
-.iphone__product__description {
-    display: inline-block;
-    vertical-align: middle;
-    color: white;
-    padding-left: 104px;
-    width: 55%;
-}
-
-.iphone__product__description__h1 {
-    font-size: 42px;
-    font-weight: bold;
-    font-weight: 800;
-}
-
-.iphone__product__description__text (
-    margin-top: 20px;
-    font-size: 16px;
-    font-family: 'Crimson Text', serif;
-}
-
-.iphone__product__description__button {
-    margin: 32px 0;
-}
-
-    
