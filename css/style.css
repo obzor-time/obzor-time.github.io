@@ -87,4 +87,6 @@ div {
     color: gray;
     display:inline-block;
     list-style: none;
+    color: gray;
+    text-decoration: none;
 }
