@@ -12,12 +12,20 @@ div {
 
 .header__top-menu {
 	display:inline-block;
+	list-style: none;
 }
 
 .second-menu {
 	display:inline-block;
+	list-style: none;
 }
 
 .header__logo {
 	margin: 0 0 0 0;
+}
+
+.header__main-menu {
+	border-bottom: 1px solid #f0f0f0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
