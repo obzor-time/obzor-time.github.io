@@ -132,3 +132,8 @@ div {
     color: gray;
     border: 0px;
 }
+
+.big-img {
+
+    background-image: url(img/iphone2.png);
+}
