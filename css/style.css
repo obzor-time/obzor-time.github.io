@@ -132,3 +132,8 @@ div {
     color: gray;
     border: 0px;
 }
+
+.iphone__product {
+
+    background-image: url(img/iphone2.png);
+}
