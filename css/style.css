@@ -8,6 +8,10 @@ div {
     display: block;
 }
 
+.wrapper {
+    width: 100%
+}
+
 .header__top-menu__item-list_black {
 
 	margin-right: 24px;
