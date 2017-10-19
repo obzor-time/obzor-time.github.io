@@ -111,7 +111,7 @@ div {
     font-size: 11px;
 }
 
-.support-search_right {  
+.search-form {  
     float: right;
     margin-right: 20vw;
     vertical-align: middle;
@@ -125,9 +125,10 @@ div {
     padding-left: 0;
     padding: 15px;
     color: gray;
+    margin-left: 298px;
 }
 
-.support-search__field_right {
+.search-form__field_right {
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     color: gray;
