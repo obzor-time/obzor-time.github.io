@@ -115,12 +115,18 @@ div {
     margin-right: 20vw;
     vertical-align: middle;
     margin-top: -4px;
-    border-left: 1px solid #f0f2f7;
-    border-right: 1px solid #f0f2f7;
     display: inline-block;
 }
 
-.second-menu__list_right_gray {
+.search-form__border {
+
+   padding: 27px 0px 27px 27px;
+   border-left: 1px solid #f0f2f7;
+   border-right: 1px solid #f0f2f7;
+
+}
+
+.second-menu__list_left_gray__right {
     padding-left: 0;
     padding: 15px;
     color: gray;
@@ -128,11 +134,7 @@ div {
 }
 
 .search-form__field_right {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    color: gray;
     border: none;
-    font-size: 14px;
 }
 
 .iphone {
