@@ -92,6 +92,8 @@ div {
     display:inline-block;
     list-style: none;
     color: gray;
+    font-size: 14px;
+
  
 }
 
@@ -107,11 +109,10 @@ div {
 
 .second-menu__li__left__right {
   
-  margin-left: 298px;
+  margin-left: 250px;
 }
 
 .search-form {  
-    margin-right: 20vw;
     vertical-align: middle;
     margin-top: -4px;
     display: inline-block;
@@ -119,9 +120,10 @@ div {
 
 .search-form__border {
 
-   padding: 27px 0px 27px 27px;
+   padding: 27px 0px 27px 15px;
    border-left: 1px solid #f0f2f7;
    border-right: 1px solid #f0f2f7;
+   margin: 0px 0px 0px -126px;
 
 }
 
