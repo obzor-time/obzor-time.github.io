@@ -112,7 +112,6 @@ div {
 }
 
 .search-form {  
-    float: right;
     margin-right: 20vw;
     vertical-align: middle;
     margin-top: -4px;
@@ -121,7 +120,7 @@ div {
     display: inline-block;
 }
 
-.second-menu__list_right_gray:nth-child(1) {
+.second-menu__list_right_gray {
     padding-left: 0;
     padding: 15px;
     color: gray;
