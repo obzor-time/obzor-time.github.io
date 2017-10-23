@@ -13,3 +13,18 @@ body{
 	display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
 }
+
+.h2 {
+	text-align: center;
+}
+
+.h4 {
+	text-align: center;
+}
+.work-span {
+	color: #fc6744
+}
+
+.p {
+	text-align: center;
+}
