@@ -14,33 +14,29 @@ body{
     font: normal normal normal 14px/1 FontAwesome;
 }
 
-.h2 {
-	text-align: center;
+.h2 work {
+	font-size: 50px;
 }
 
-.h4 {
+.work {
 	text-align: center;
 }
 .work-span {
 	color: #fc6744
 }
 
-.p {
-	text-align: center;
-}
-
 .box one {
-	color: #4eb2f7;
+	background-color: #4eb2f7;
 }
 
 .box second {
-    color: #c049f8; 
+    background-color: #c049f8; 
 }
 
 .box three {
-    color: #817eff;
+    background-color: #817eff;
 }
 
 .box forth {
-    color: #f74770;
+    background-color: #f74770;
 }
