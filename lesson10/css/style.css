@@ -6,6 +6,7 @@ body{
 .box {
 	margin-top: 4rem;
     padding-top: 4rem;
+    color: rgba(255, 255, 255,.9);
 }
 
 .fa {
