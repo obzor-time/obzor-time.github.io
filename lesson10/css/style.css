@@ -28,3 +28,19 @@ body{
 .p {
 	text-align: center;
 }
+
+.box one {
+	color: #4eb2f7;
+}
+
+.box second {
+    color: #c049f8; 
+}
+
+.box three {
+    color: #817eff;
+}
+
+.box forth {
+    color: #f74770;
+}
