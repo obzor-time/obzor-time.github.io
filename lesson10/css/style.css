@@ -7,13 +7,13 @@ body{
 	margin-top: 4rem;
     padding-top: 4rem;
     color: rgba(255, 255, 255,.9);
-    height: 300px;
+    height: 250px;
 }
 
 .box a {
 
 	position: relative;
-    top: 11px;
+    top: 70px;
     text-decoration: none;
     font-size: 17px;
     background-color: #fff;
