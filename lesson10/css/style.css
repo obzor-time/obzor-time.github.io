@@ -7,11 +7,16 @@ body{
 	margin-top: 4rem;
     padding-top: 4rem;
     color: rgba(255, 255, 255,.9);
+    height: 300px;
 }
 
 .fa {
 	display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
+}
+
+i.fa {
+    font-size: 50px;
 }
 
 .work h2 {
