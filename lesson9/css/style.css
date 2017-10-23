@@ -1,11 +1,10 @@
-/*Basic settings*/
 html {
   font-size: 10px;
 }
 body {
   color: #202242;
 }
-/*fonts*/
+
 @font-face {
   font-family: 'Rockwell MT';
   src: url('../fonts/RockwellMT.eot');
@@ -13,7 +12,7 @@ body {
   font-weight: normal;
   font-style: normal;
 }
-/*fonts mixin*/
+
 .reg {
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
@@ -34,8 +33,7 @@ body {
   font-family: "Rockwell MT";
   font-weight: normal;
 }
-/*color mixins*/
-/*header styles*/
+
 header {
   height: 100vh;
   min-height: 60rem;
@@ -48,14 +46,14 @@ header {
   -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
-.header-logo {
+.header-logos {
   height: 100%;
   line-height: 11rem;
 }
-.header-logo img {
+.header-logos image {
   vertical-align: middle;
 }
-.header-logo span {
+.header-logos span {
   font-family: "Rockwell MT";
   font-weight: normal;
   font-size: 2rem;
