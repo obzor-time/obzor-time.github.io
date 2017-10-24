@@ -1,5 +1,5 @@
 body {
-	background-image: url(/img/backgraund.png);
+	background-image: url(../img/backgraund.png);
 }
 
 .galery__description {
@@ -39,7 +39,7 @@ body {
 }
 
 .box-one {
-	background-image: url(/img/fox.jpg);
+	background-image: url(../img/fox.jpg);
 	opacity: 0.5;
 	background-color: rgb(101, 136, 142);
 }
@@ -63,11 +63,11 @@ body {
 /*box-two*/
 
 .box-two {
-	background-image: url(/img/tiger.jpg);
+	background-image: url(../img/tiger.jpg);
 }
 
 .box-two:hover {
-	background-image: url(/img/tiger2.jpg);
+	background-image: url(../img/tiger2.jpg);
 	color: white;
 	opacity: 1;
 	border: 3px solid blue;
@@ -106,7 +106,7 @@ body {
 }
 
 .box-three:hover {
-	background-image: url(/img/Wolf.jpg);
+	background-image: url(../img/Wolf.jpg);
 	opacity: 1;
 }
 
@@ -131,7 +131,7 @@ body {
 
 /*box-forth*/
 .box-forth {
-	background-image: url(/img/Bear.jpg);
+	background-image: url(../img/Bear.jpg);
 }
 
 .box-forth:hover {
