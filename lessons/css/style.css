@@ -1,0 +1,154 @@
+body {
+	background-image: url(/img/backgraund.png);
+}
+
+.galery__description {
+	text-align: center;
+	font-size: 50px;
+	margin-top: 40px;
+}
+
+.box {
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  height: 170px;
+  border-right: 6px solid white;
+  text-align: center;
+  overflow: hidden;
+
+}
+
+.block span {
+
+  font-size: 2.5em;
+  color: white;
+}
+
+/*box-one*/
+
+.box-one:hover {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+  border: 3px solid white;
+  cursor: pointer;
+  transform: rotate(360deg);
+}
+
+.box-one {
+	background-image: url(/img/fox.jpg);
+	opacity: 0.5;
+	background-color: rgb(101, 136, 142);
+}
+
+.box-one a {
+  display: inline-block;
+  width: 200px;
+  border-radius: 50px;
+  margin-top: 40px;
+  text-decoration: none;
+  color: #ffffff;
+  border: 3px solid red;
+  font-size: 25px;
+  opacity: 0;
+}
+
+.box-one a:hover {
+	opacity: 1;
+}
+
+/*box-two*/
+
+.box-two {
+	background-image: url(/img/tiger.jpg);
+}
+
+.box-two:hover {
+	background-image: url(/img/tiger2.jpg);
+	color: white;
+	opacity: 1;
+	border: 3px solid blue;
+}
+
+.box-two span {
+	float: left;
+}
+
+.box-two a {
+  display: inline-block;
+  width: 200px;
+  border-radius: 10px;
+  margin-top: 40px;
+  text-decoration: none;
+  color: #ffffff;
+  border: 3px solid white;
+  font-size: 25px;
+  opacity: 0;
+}
+
+.box-two a:hover {
+	display: inline-block;
+	opacity: 1;
+	width: 170px;
+	font-size: 20px;
+	transform: rotate(-45deg);
+    margin: 87px -58px 0px -43px;
+
+}
+
+/*box-three*/
+
+.box-three {
+	background-color: rgb(81, 67, 71);
+}
+
+.box-three:hover {
+	background-image: url(/img/Wolf.jpg);
+	opacity: 1;
+}
+
+.box-three span {
+	
+}
+
+.box-three a {
+    color: white;
+    border: 3px solid;
+    padding: 5px 10px 5px 10px;
+    opacity: 0;
+    display: block;
+    margin: 50px 0 0 0;
+}
+
+.box-three a:hover {
+	opacity: 1;
+	border: 3px solid white;
+	color: white;
+}
+
+/*box-forth*/
+.box-forth {
+	background-image: url(/img/Bear.jpg);
+}
+
+.box-forth:hover {
+	opacity: 1;
+}
+
+.box-forth a {
+	color: white;
+    border: 3px solid;
+    padding: 5px 10px 5px 10px;
+    opacity: 0;
+    display: block;
+    margin: 50px 0 0 0;
+}
+
+.box-forth a:hover {
+	opacity: 1;
+	border: 3px solid white;
+	color: white;
+}
