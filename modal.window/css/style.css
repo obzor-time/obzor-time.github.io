@@ -1,0 +1,138 @@
+body {
+	background-image: url(../img/main.png);
+	width: 1400px;
+}
+
+.text {
+	text-align: center;
+	color: white;
+	font-size: 25px;
+}
+
+.close {
+	width: 260px;
+	height: 100%;
+   background-color: rgba(158, 138, 41, 0.57);
+   position: fixed;
+   display: none;
+   transition: all 5s;
+   transform: translateX(-100%) translateY(-100%);
+}
+
+
+.close:target {
+	display: block;
+	transform: translateX(0%) translateY(0%);
+}
+
+.close-menu {
+    font-size: 55px;
+    float: right;
+    margin: -28px -5px 0 0;
+    color: black;
+    text-decoration: none;
+}
+
+.close-menu:hover {
+	text-decoration: none;
+}
+
+
+.contact-form {
+	text-align: center;
+	font-size: 40px;
+	color: white;
+	padding: 5px 10px 5px 10px;
+    border: 3px solid red;
+}
+
+.contact-form:hover {
+	text-decoration: none;
+	color: red;
+}
+
+.menu-button {
+    margin: -230px -4px -42px 67px;
+    border: 3px solid;
+    width: 100px;
+    text-align: center;
+    border-radius: 40px;
+    color: wheat;
+    font-size: 25px;
+    position: relative;
+    display: block;
+}
+
+.menu-button a {
+	color: white;
+}
+
+.menu-button:focus {
+	display: none;
+}
+
+.menu-button a:hover {
+	text-decoration: none;
+	color: red;
+}
+
+.header__menu {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+.header__menu a {
+	color: white;
+	border-bottom: 2px solid;
+}
+
+.films {
+	margin: 50px -40px 30px 0px;
+    font-size: 25px;
+}
+
+.films2 {
+	margin: 50px -40px 30px 0px;
+    font-size: 25px;
+}
+
+.films3 {
+	margin: 50px -40px 30px 0px;
+    font-size: 25px;
+}
+
+.films4 {
+	margin: 50px -40px 30px 0px;
+    font-size: 25px;
+}
+
+.form {
+	background-image: url(../img/form.jpg);
+    width: 400px;
+    height: 352px;
+    margin: 27px 0px 0px 505px;
+    display: none; 
+    position: absolute;
+    transition: all 2s;
+
+}
+
+.form:target {
+
+	display: block;
+}
+
+.form2 {
+	background-image: url(../img/podpis.jpg);
+	width: 500px;
+	height: 500px;
+	margin: 27px 0px 0px 505px;
+	position: absolute;
+	display: none;
+}
+
+.form2:target {
+	display: block;
+	position: flex;
+}
