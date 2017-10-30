@@ -1,0 +1,282 @@
+header {
+  height: 750px;
+  background: url(../img/fon.png) no-repeat center center;
+  background-size: cover;
+}
+.header {
+  height: 8vh;
+  padding-top: 20px;
+}
+.header-logo {
+  margin-top: 15px;
+}
+.header-title {
+  margin-top: 18px;
+  margin-left: 28px;
+  line-height: 18px;
+}
+.header-title_text {
+  font-size: 20px;
+  color: #fff;
+  margin: 0px 0px -10px 0px;
+}
+.header-title_span {
+  font-size: 15px;
+}
+.header-btn {
+  margin-top: 12px;
+  margin-left: 4rem;
+}
+.header-btn_btn {
+  padding: 1.5rem 5rem 1.5rem 5rem;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #fff;
+  border-radius: 5px;
+  outline: none;
+  float: right;
+  margin: 3rem 3rem 0rem 0rem;
+}
+.header-btn_btn:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.header-call {
+  margin-top: 20px;
+  font-size: 30px;
+  color: #fff;
+  float: right;
+}
+.main-title {
+  color: #ffff33;
+  text-align: center;
+  margin-top: 5rem;
+  text-transform: uppercase;
+}
+.main-list {
+  color: #fff;
+  list-style-image: url(../img/li.png);
+  margin-top: 15rem;
+  font-size: 2rem;
+  line-height: 4rem;
+  margin-left: 4rem;
+}
+.main-submit {
+  margin-top: 3rem;
+  margin-right: 5rem;
+  float: right;
+  width: 420px;
+  height: 420px;
+  background-color: #fff;
+  text-align: center;
+  align-content: center;
+  border-radius: 5px;
+}
+.main-submit_btn {
+  padding: 20px 7.3rem 20px 7.3rem;
+  margin-top: 1rem;
+  background-color: #ffff33;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px 0 0 #999900;
+  outline: none;
+}
+.main-submit_btn:hover {
+  background-color: rgba(153, 153, 0, 0.8);
+}
+.main-submit_text {
+  margin-top: 4rem;
+  font-size: 20px;
+}
+.main-submit input placeholder {
+  color: red;
+}
+.main-submit .input-1 {
+  margin-top: 2.5rem;
+  padding: 20px 6rem 20px 6rem;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  outline: none;
+  background: url(../img/icon.png) no-repeat;
+  background-size: 60px;
+  padding-left: 8rem;
+}
+.main-submit .input-1:hover {
+  border: 1px solid #000;
+}
+.main-submit .input-2 {
+  margin-top: 1rem;
+  padding: 20px 6rem 20px 6rem;
+  border-radius: 5px;
+  border: 1px solid #999999;
+  outline: none;
+  background: url(../img/icon2.png) no-repeat;
+  background-size: 60px;
+  padding-left: 8rem;
+}
+.main-submit .input-2:hover {
+  border: 1px solid #000;
+}
+.main-money {
+  margin-top: -6rem;
+}
+.items {
+  margin-top: 6rem;
+}
+.items p {
+  margin-top: 2rem;
+}
+
+@media (max-width: 1200px) {
+  .header-btn_btn {
+    padding: 1.5rem 2rem 1.5rem 2rem;
+    margin-left: 0;
+  }
+  .header-call {
+    font-size: 25px;
+  }
+  .main-title h1 {
+    font-size: 30px;
+  }
+  .main-list {
+    margin-left: 0;
+  }
+  .main-money {
+    margin: -99px -325px 0px 18px;
+  }
+}
+@media (max-width: 992px) {
+  .header-logo {
+    margin-top: 2rem;
+  }
+  .header-title {
+    padding-left: 4rem;
+  }
+  .header-call {
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 5rem;
+  }
+  .header-btn_btn {
+    margin-top: -8rem;
+    margin-right: 3rem;
+  }
+  .main-title h1 {
+    font-size: 23px;
+    margin-top: -5rem;
+  }
+  .main-list {
+    margin-top: 0;
+    text-align: center;
+    list-style-image: none;
+    list-style-type: none;
+  }
+  .main-submit {
+    float: none;
+    margin-top: -5rem;
+    width: 725px;
+    height: 350px;
+  }
+  .main-money {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  header {
+    height: 214vh;
+  }
+  .header-title {
+    margin: 0;
+    float: left;
+    margin-top: 2rem;
+  }
+  .header-call {
+    font-size: 35px;
+    margin-top: 3.2rem;
+    margin-left: -2rem;
+  }
+  .header-btn {
+    margin: 0;
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .header-btn_btn {
+    float: none;
+  }
+  .main-submit {
+    width: 100%;
+    margin: 0px 0px 0px 170px;
+    padding-top: 1px;
+    border: 1px solid;
+  }
+  .main-money {
+    display: none;
+  }
+}
+@media (max-width: 738px) {
+  header {
+    height: 186vh;
+    text-align: center;
+  }
+  .header-logo {
+    margin: 0;
+  }
+  .header-title {
+    margin: 0;
+  }
+  .header-btn {
+    margin: 0;
+    padding: 0;
+    margin-top: 2rem;
+    text-align: center;
+  }
+  .header-btn_btn {
+    width: 80%;
+    margin: 0;
+    font-size: 3rem;
+  }
+  .header-call {
+    text-align: center;
+    margin: 0px 0px -50px 0px;
+    padding: 0;
+    font-size: 4rem;
+  }
+  .main-title h1 {
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+  }
+  .main-submit {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 400px;
+    float: right;
+  }
+  .main .input-1 {
+    margin-top: -10px;
+  }
+  .main-money {
+    display: none;
+  }
+}
+
+.text-center {
+	text-align: center;
+}
+
+@media (max-width: 320px) {
+	header {
+	text-align: center;
+    width: 340px;
+	}
+
+	.main-submit .input-1 {
+
+		padding: 20px 1rem 20px 10rem;
+	}
+
+	.main-submit .input-2 {
+
+		padding: 20px 1rem 20px 10rem;
+	}
+}
