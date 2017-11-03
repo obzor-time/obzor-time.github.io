@@ -1,21 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Flex-slider</title>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
 
-    <link href="https://fonts.googleapis.com/css?family=Bad+Script&amp;subset=cyrillic" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Jquery</title>
+	<link rel="stylesheet" href="css/style.css">	
+</head>
+	<body>
+	<a href="#main" class="main-menu">
+		<span></span>
+	</a>
+	<div class="menu">
+	<ul>
+			<li><a href="#first">Меню</a></li>
+			<li><a href="#second">Акции</a></li>
+			<li><a href="#third">Заказать столик</a></li>
+		</ul>	
+	</div>
 
-  </head>
-  <body>
-     <div class="slider">
-     	<div class="image image-1"><span>Лето</span></div>
-     	<div class="image image-2"><span>Это</span></div>
-     	<div class="image image-3"><span>Очень</span></div>
-     	<div class="image image-4"><span>Круто!</span></div>
-     </div>
-  </body>
+<section class="one" id="first"></section>
+<section class="two" id="second"></section>
+<section class="three" id="third"></section>
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var link = $('.main-menu');
+			var link_active = $('main-menu_active');
+			var menu = $('.menu');
+			var nav_link = $('.menu a');
+			link.click(function(){
+				link.toggleClass('main-menu_active');
+				menu.toggleClass('menu-active');
+			})
+			link_active.click(function(){
+				link.removeClass('main-menu_active');
+			})
+			nav_link.click(function(){
+				link.removeClass('main-menu_active');
+				menu.removeClass('menu-active')
+			})
+		})
+	</script>
+	</body>	
 </html>
