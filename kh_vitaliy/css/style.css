@@ -84,18 +84,18 @@
 .one {
   height: 750px;
   width: 100vw;
-  background-image: url(/../img/menu.jpg);
+  background-image: url(../img/menu.jpg);
   background-repeat: no-repeat;
 }
 
 .two {
   height: 750px;
   width: 100vw;
-  background-image: url(/img/action.jpg);
+  background-image: url(../img/action.jpg);
   background-repeat: no-repeat;
 }
 
-.three {
+.three { 
   height: 750px;
   width: 100vw;
   background-image: url(../img/cafe.jpg);
