@@ -12,18 +12,40 @@
 </head>
 	<body>
 
-	<a class="menu-link" href="#menu">
-		<span>
-			
-		</span>
+	<a href="#main" class="main-menu">
+		<span></span>
 	</a>
-	
-	<script src='js/jquery-3.2.1.min.js'></script>
+	<div class="menu">
+	<ul>
+			<li><a href="#first">Меню</a></li>
+			<li><a href="#second">Акции</a></li>
+			<li><a href="#third">Заказать столик</a></li>
+		</ul>	
+	</div>
+
+<section class="one" id="first"></section>
+<section class="two" id="second"></section>
+<section class="three" id="third"></section>
+
+
+
+	<script src="js/jquery-3.2.1.min.js"></script>
 	<script>
 		$(document).ready(function(){
-			var link = $('.menu-link');
+			var link = $('.main-menu');
+			var link_active = $('main-menu_active');
+			var menu = $('.menu');
+			var nav_link = $('.menu a');
 			link.click(function(){
-				link.toggleClass('menu-link_active');
+				link.toggleClass('main-menu_active');
+				menu.toggleClass('menu-active');
+			})
+			link_active.click(function(){
+				link.removeClass('main-menu_active');
+			})
+			nav_link.click(function(){
+				link.removeClass('main-menu_active');
+				menu.removeClass('menu-active')
 			})
 		})
 	</script>
