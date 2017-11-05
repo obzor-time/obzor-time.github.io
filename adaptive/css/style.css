@@ -288,8 +288,7 @@ header {
   border-radius: 50%;
   background-color: black;
   box-shadow: 1px 1px 11px grey;
-  margin: 20px 0px 0px 26px;
-  position: fixed;
+  position: relative;
 
 }
 
