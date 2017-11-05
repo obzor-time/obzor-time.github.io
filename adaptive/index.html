@@ -11,9 +11,19 @@
   <body>
 
   	<header>
+           
+
+      <div class="menu" id="menu">
+        <ul>
+            <li><a href="#">Заказать звонок</a></li>
+            <li><a href="#">Получить консультацию</a></li>
+            <li><a href="#">Наши особенности</a></li>
+          </ul>
+          </div>
+           <a href="#menu" class="menu-btn"><span></span></a>
   	<div class="header">
   		<div class="container">
-  			<div class="row">
+  			<div class="row header-one">
   				<div class="col-lg-1 col-md-1 col-sm-2 col-xs-4 header-logo">
   					<img src="img/logo.png" class="header-logo_img">
   				</div>
@@ -139,5 +149,28 @@
         </div>
     </div>
     </section>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      var btn = $('.menu-btn');
+      var btn_active = $('menu-btn_active');
+      var menu = $('.menu');
+      var header = $('.header-one');
+      var nav_link = $('.menu a');
+      btn.click(function(){
+        btn.toggleClass('menu-btn_active');
+        menu.toggleClass('menu-active');
+        header.toggleClass('header-two');
+      })
+      btn_active.click(function(){
+        btn.removeClass('menu-btn_active');
+      })
+      nav_link.click(function(){
+        btn.removeClass('menu-btn_active');
+        menu.removeClass('menu-active');
+        header.toggleClass('header-two');
+      })
+    })
+    </script>
   </body>
 </html>
