@@ -1,11 +1,14 @@
 body {
   background-color: #fff;
-  text-align: center;
   color: #a69999;
 }
 header {
   text-align: center;
   padding-top: 8%;
+}
+
+.content {
+    text-align: center;
 }
 
 .main {
@@ -97,4 +100,9 @@ header {
 }
 .whatwedo-box h4 {
   margin-bottom: 3rem;
+}
+
+.parallax-window {
+  min-height: 400px;
+  background: transparent;
 }
