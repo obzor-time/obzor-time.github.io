@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Parallax-effect</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+  <body>
+  	<div class="container">
+  		<div class="row">
+  			<div class="col-md-4 col-xs-2 col-sm-12 header">
+  				<img src="img/logo.png">
+  			</div>
+
+  			<div class="col-md-8 col-xs-10 col-sm-12">
+  				<ul>
+  					<li class="nav nav-one"><a class="link" href="#">BLOG</a></li>
+  					<li class="nav nav-one"><a class="link" href="#">CONTACT US</a></li>
+  					<li class="nav nav-two"><a class="link" href="#">ABOUT US</a></li>
+  					<li class="nav nav-one"><a class="link" href="#">HOW IT WORKS</a></li>
+  				</ul>
+  			</div>
+  		</div>
+  	</div>
+ 
+<div class="main">
+	<div class="container">
+		<div class="row">
+
+    <div class="col-md-12" id="scene">
+		<div class="layer" data-depth="0.20"><img src="img/ob1.png" style="transform: translateX(10rem) translateY(8rem);"></div>
+		<div class="layer" data-depth="0.30"><img src="img/ob2.png" style="transform: translateX(110rem) translateY(7rem);"></div>
+		<div class="layer" data-depth="0.60"><img src="img/ob3.png" style="transform: translateX(12rem) translateY(45rem);"></div>
+		<div class="layer" data-depth="0.80"><img src="img/ob4.png" style="transform: translateX(115rem) translateY(50rem);"></div>
+					</div>
+
+
+
+			<div class="col-md-6 col-sm-6 col-xs-12 main-text">
+				<h1>TRACK YOUR NEXT<br>
+                    FUEL SHOPS
+				</h1>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6 col-sm-6 col-xs-12 main-text_2">
+				<p>Monitor and Alert on all petrol bunks near to you 
+				</p>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-6 col-sm-6 col-xs-12 main-text_form">
+				<p>Signup For <span>FREE</span></p>
+				<div class="form">
+					<form action="#">
+						<input type="text" placeholder="Your E-mail  Adress" class="input" required/>
+						<a href="#" class="btn">signup</a>
+					</form>
+				</div>
+			</div>
+		</div>		
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="dest">
+			<ul>
+		
+			  <li class="brands"><img src="img/evernote.png"></li>
+			  <li class="brands"><img src="img/microsoft.png"></li>
+			  <li class="brands"><img src="img/google.png"></li>
+			  <li class="brands"><img src="img/sony.png"></li>
+			  <li class="brands"><img src="img/firefox.png"></li>
+		</ul>
+	
+	    </div> 	
+	</div>
+</div>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.parallax.js"></script>
+    <script>
+    	$(document).ready(function(){
+    		$('#scene').parallax();
+    	});
+    </script>
+  </body>
+</html>
