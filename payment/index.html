@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Payment</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+  </head>
+  <body>
+    <header>
+          <div class="container">
+            <div class="row">
+              <div class="item">  
+                <div class="col-md-6">
+                  <div class="item_img">
+                    <img src="img/chaire.png" alt="Стул">
+                  </div>     
+                </div>
+                <div class="col-md-6">
+                  <div class="item_description">
+                    <h3 class="one">Стул “Венеция”</h3>
+                    <h4 class="two">Ограниченный выпуск. </h4>
+                    <span class="price">4 250 р.  </span> <br>
+                    <div id="reviewStars-input">
+                        <input id="star-4" type="radio" name="reviewStars"/>
+                        <label title="gorgeous" for="star-4"></label>
+
+                        <input id="star-3" type="radio" name="reviewStars"/>
+                        <label title="good" for="star-3"></label>
+
+                        <input id="star-2" type="radio" name="reviewStars"/>
+                        <label title="regular" for="star-2"></label>
+
+                        <input id="star-1" type="radio" name="reviewStars"/>
+                        <label title="poor" for="star-1"></label>
+
+                        <input id="star-0" type="radio" name="reviewStars"/>
+                        <label title="bad" for="star-0"></label>
+                    </div>
+                    <p>
+                      <br>Сайт рыбатекст поможет дизайнеру, <br> 
+                      верстальщику, вебмастеру сгенерировать <br> 
+                      несколько абзацев более менее осмысленного <br> 
+                      текста рыбы на русском языке, а начинающему <br> 
+                      оратору отточить навык публичных выступлений <br> 
+                      в домашних условиях. При создании генератора</p>
+                    <div class="many">
+                      <div class="item-1">
+                        <img src="img/minus.png" class="minus" alt="minus">
+                      </div>
+                      <div class="item-2">
+                        <span class="score">0</span>
+                      </div>
+                      <div class="item-3">
+                         <img src="img/plus.png" class="plus" alt="plus">
+                      </div>
+                    </div>
+                    <button class="med">
+                      <a href="https://glopart.ru/buy/180893">Добавить в корзину</a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header> 
+
+      <script src="js/jquery-3.2.1.min.js"></script>  
+
+      <script>
+        $(document).ready(function(){
+          var plus = $('.plus'),
+              minus = $('.minus'),
+              score = $('.score'),
+              score_val = 1;
+              
+          plus.on('click', function(){
+           var number = score.text(score_val);
+          
+            score_val=score_val+1;
+            console.log(score_val);
+          });    
+          minus.on('click', function(){
+        
+          
+          if (score_val <=2){
+            score_val=2;
+          };
+          score_val--;
+          var number = score.text(score_val-1);
+          });
+        });
+      </script>
+
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
